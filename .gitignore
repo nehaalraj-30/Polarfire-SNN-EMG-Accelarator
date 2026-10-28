@@ -1,0 +1,41 @@
+# Git only intentional source files: review staged files before every commit.
+# Tool-generated outputs (may be very large and local-machine-specific):
+.svn/
+*.vm
+*.edf
+*.edn
+*.srr
+*.srs
+*.rpt
+*.log
+*.bak
+*.tmp
+*.jou
+*.wlf
+*.vcd
+*.fsdb
+*.bin
+*.stp
+*.pdb
+*.bit
+*.job
+*.dat
+__pycache__/
+.pytest_cache/
+*.pyc
+# Libero generated/build directories (do not ignore real hand-written HDL/constraints):
+designer/
+synthesis/synwork/
+synthesis/synlog/
+simulation/
+component/work/
+component/Actel/
+# Local security / license material
+License.dat
+*.lic
+*.key
+.env
+# Backups/swap files
+*~
+*.swp
+*.swo

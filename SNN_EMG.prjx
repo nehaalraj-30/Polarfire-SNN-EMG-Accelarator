@@ -1,0 +1,1405 @@
+KEY LIBERO "2026.1"
+KEY CAPTURE "2026.1.0.17"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFireSoC"
+KEY VendorTechnology_Die "PA5SOC250TC"
+KEY VendorTechnology_Package "fcvg484"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5SOC250TC"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "/home/nehaal-raj/SOP_4_1/SNN_EMG"
+KEY ProjectDescription "To Build an SNN trained on software to analyse and output emergency braking signatures "
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "SNN::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1792660077"
+SIZE="573"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0.cxf"
+ENDFILE
+VALUE "<project>/component/Actel/DirectCore/CoreUARTapb/5.7.100/CoreUARTapb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1791627384"
+SIZE="779"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0.cxf"
+ENDFILE
+VALUE "<project>/component/Actel/SgCore/PF_CCC/2.2.222/PF_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1792659689"
+SIZE="279"
+PARENT="<project>/component/work/PF_CCC_C0/PF_CCC_C0.cxf"
+ENDFILE
+VALUE "<project>/component/Actel/SgCore/PF_TPSRAM/1.1.108/PF_TPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1789073396"
+SIZE="246"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.cxf"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1791627384"
+SIZE="6016"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0.v,hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="5137"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="587"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1791627384"
+SIZE="4144"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0.cxf"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/mti/scripts/bfmtovec_compile.do,do"
+STATE="utd"
+TIME="1791627384"
+SIZE="1011"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/mti/scripts/wave_vlog_amba.do,do"
+STATE="utd"
+TIME="1791627384"
+SIZE="2034"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbl.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="8122"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahblapb.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="11276"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslave.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="2525"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="48878"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="4667"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apb.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="9168"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslave.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="25223"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="36337"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="4730"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="122549"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Clock_gen.v,hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="12928"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/CoreUART.v,hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="14332"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/CoreUARTapb.v,hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="13971"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/fifo_256x8_g5.v,hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="8310"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Rx_async.v,hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="20587"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Tx_async.v,hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="8870"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/test/user/testbench.v,tb_hdl"
+STATE="utd"
+TIME="1791627384"
+SIZE="8690"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1792660077"
+SIZE="5034"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0.v,hdl"
+STATE="utd"
+TIME="1792660077"
+SIZE="4833"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1792660077"
+SIZE="452"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1792660077"
+SIZE="1891"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0.cxf"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/mti/scripts/wave_vlog.do,do"
+STATE="utd"
+TIME="1792660077"
+SIZE="1458"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Clock_gen.v,hdl"
+STATE="utd"
+TIME="1792660077"
+SIZE="12916"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/CoreUART.v,hdl"
+STATE="utd"
+TIME="1792662142"
+SIZE="13805"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/fifo_256x8_g5.v,hdl"
+STATE="utd"
+TIME="1792660077"
+SIZE="8280"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Rx_async.v,hdl"
+STATE="utd"
+TIME="1792660077"
+SIZE="20575"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Tx_async.v,hdl"
+STATE="utd"
+TIME="1792660077"
+SIZE="8864"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/test/user/testbnch.v,tb_hdl"
+STATE="utd"
+TIME="1792660077"
+SIZE="39126"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+MODULE_UNDER_TEST="testbnch"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/PF_CCC_C0/PF_CCC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1792659690"
+SIZE="18191"
+ENDFILE
+VALUE "<project>/component/work/PF_CCC_C0/PF_CCC_C0.v,hdl"
+STATE="utd"
+TIME="1792659689"
+SIZE="9845"
+PARENT="<project>/component/work/PF_CCC_C0/PF_CCC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1792659689"
+SIZE="457"
+PARENT="<project>/component/work/PF_CCC_C0/PF_CCC_C0.cxf"
+ENDFILE
+VALUE "<project>/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v,hdl"
+STATE="utd"
+TIME="1792659689"
+SIZE="3761"
+PARENT="<project>/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1789073396"
+SIZE="4883"
+ENDFILE
+VALUE "<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v,hdl"
+STATE="utd"
+TIME="1789073396"
+SIZE="3565"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1789073395"
+SIZE="6045"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.cxf"
+ENDFILE
+VALUE "<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v,hdl"
+STATE="utd"
+TIME="1789073395"
+SIZE="94893"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/SNN/SNN.cxf,actgen_cxf"
+STATE="utd"
+TIME="1793101596"
+SIZE="4048"
+ENDFILE
+VALUE "<project>/component/work/SNN/SNN.v,hdl"
+STATE="utd"
+TIME="1793101596"
+SIZE="13485"
+PARENT="<project>/component/work/SNN/SNN.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/constraint/io/snn_io.pdc,io_pdc"
+STATE="utd"
+TIME="1792660868"
+SIZE="2154"
+ENDFILE
+VALUE "<project>/constraint/SNN_derived_constraints.sdc,sdc"
+STATE="utd"
+TIME="1793101610"
+SIZE="612"
+ENDFILE
+VALUE "<project>/hdl/ADAS_BUFFER.v,hdl"
+STATE="utd"
+TIME="1792574719"
+SIZE="1597"
+ENDFILE
+VALUE "<project>/hdl/emgBuffer.v,hdl"
+STATE="utd"
+TIME="1793100456"
+SIZE="2213"
+ENDFILE
+VALUE "<project>/hdl/inference_perf_counter.v,hdl"
+STATE="utd"
+TIME="1792660474"
+SIZE="1456"
+ENDFILE
+VALUE "<project>/hdl/INPUT_COMBINER.v,hdl"
+STATE="utd"
+TIME="1792575464"
+SIZE="678"
+ENDFILE
+VALUE "<project>/hdl/INPUT_READY.v,hdl"
+STATE="utd"
+TIME="1792576754"
+SIZE="653"
+ENDFILE
+VALUE "<project>/hdl/layer_if_neuron.v,hdl"
+STATE="utd"
+TIME="1792579754"
+SIZE="5344"
+ENDFILE
+VALUE "<project>/hdl/layer_if_neuron_II.v,hdl"
+STATE="utd"
+TIME="1792579754"
+SIZE="2790"
+ENDFILE
+VALUE "<project>/hdl/layer_if_neuron_III.v,hdl"
+STATE="utd"
+TIME="1792697397"
+SIZE="5294"
+ENDFILE
+VALUE "<project>/hdl/Not_gate.v,hdl"
+STATE="utd"
+TIME="1791817485"
+SIZE="734"
+ENDFILE
+VALUE "<project>/hdl/rateEncoder.v,hdl"
+STATE="utd"
+TIME="1790671634"
+SIZE="1746"
+ENDFILE
+VALUE "<project>/hdl/reset.v,hdl"
+STATE="utd"
+TIME="1789498189"
+SIZE="753"
+ENDFILE
+VALUE "<project>/hdl/snnController.v,hdl"
+STATE="utd"
+TIME="1792577807"
+SIZE="3962"
+ENDFILE
+VALUE "<project>/hdl/snn_output_latch.v,hdl"
+STATE="utd"
+TIME="1792580612"
+SIZE="1536"
+ENDFILE
+VALUE "<project>/hdl/SNN_UART_REPORTER.v,hdl"
+STATE="utd"
+TIME="1792660485"
+SIZE="5027"
+ENDFILE
+VALUE "<project>/hdl/uart_emg_bridge.v,hdl"
+STATE="utd"
+TIME="1792407350"
+SIZE="2024"
+ENDFILE
+VALUE "<project>/hdl/UART_INPUT_ROUTER.v,hdl"
+STATE="utd"
+TIME="1792579989"
+SIZE="1759"
+ENDFILE
+VALUE "<project>/simulation/coreuart_usertb_apb_master.bfm,sim"
+STATE="utd"
+TIME="1791627384"
+SIZE="2906"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+ENDFILE
+VALUE "<project>/simulation/coreuart_usertb_include.bfm,sim"
+STATE="utd"
+TIME="1791627384"
+SIZE="13597"
+PARENT="<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.cxf"
+ENDFILE
+VALUE "<project>/simulation/layer1_biases.mem,sim"
+STATE="utd"
+TIME="1792579334"
+SIZE="1152"
+ENDFILE
+VALUE "<project>/simulation/layer1_weights.mem,sim"
+STATE="utd"
+TIME="1790675447"
+SIZE="115200"
+ENDFILE
+VALUE "<project>/simulation/layer2_biases.mem,sim"
+STATE="utd"
+TIME="1792579334"
+SIZE="576"
+ENDFILE
+VALUE "<project>/simulation/layer2_weights.mem,sim"
+STATE="utd"
+TIME="1792579334"
+SIZE="24576"
+ENDFILE
+VALUE "<project>/simulation/layer3_biases.mem,sim"
+STATE="utd"
+TIME="1792579334"
+SIZE="9"
+ENDFILE
+VALUE "<project>/simulation/layer3_weights.mem,sim"
+STATE="utd"
+TIME="1792579334"
+SIZE="192"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C0.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C1.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C10.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C11.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C12.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C13.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C14.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C15.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C2.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C3.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C4.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C5.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C6.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C7.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C8.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C9.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C0.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C1.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C10.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C11.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C12.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C13.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C14.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C15.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C2.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C3.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C4.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C5.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C6.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C7.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C8.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C9.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="21504"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C0.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C1.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C10.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C11.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C12.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C13.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C14.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C15.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C2.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C3.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C4.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C5.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C6.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C7.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C8.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C9.mem,sim"
+STATE="utd"
+TIME="1789073396"
+SIZE="7392"
+PARENT="<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+ENDFILE
+VALUE "<project>/simulation/run.do,do"
+STATE="utd"
+TIME="1793029040"
+SIZE="936"
+ENDFILE
+VALUE "<project>/stimulus/post_synth_tb.v,tb_hdl"
+STATE="utd"
+TIME="1792499629"
+SIZE="3940"
+ENDFILE
+VALUE "<project>/synthesis/SNN.so,so"
+STATE="utd"
+TIME="1793130943"
+SIZE="207"
+ENDFILE
+VALUE "<project>/synthesis/SNN.vm,syn_vm"
+STATE="utd"
+TIME="1793130920"
+SIZE="42153872"
+ENDFILE
+VALUE "<project>/synthesis/SNN_syn.prj,prj"
+STATE="utd"
+TIME="1793131200"
+SIZE="4645"
+ENDFILE
+VALUE "<project>/synthesis/SNN_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1793130928"
+SIZE="1056"
+ENDFILE
+VALUE "<project>/synthesis/synwork/layer0.so,so"
+STATE="utd"
+TIME="1793101431"
+SIZE="154"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "COREUART_C0_COREUART_C0_0_COREUART::work"
+FILE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/CoreUART.v,hdl"
+LIST Other_Association
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/coreparameters.v,tb_hdl"
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/test/user/testbnch.v,tb_hdl"
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/mti/scripts/wave_vlog.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/coreparameters.v,tb_hdl"
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/test/user/testbnch.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb::work"
+FILE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/CoreUARTapb.v,hdl"
+LIST Other_Association
+VALUE "<project>/simulation/coreuart_usertb_apb_master.bfm,sim"
+VALUE "<project>/simulation/coreuart_usertb_include.bfm,sim"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/coreparameters.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbl.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahblapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslave.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslave.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/test/user/testbench.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/mti/scripts/bfmtovec_compile.do,do"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/mti/scripts/wave_vlog_amba.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/coreparameters.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbl.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahblapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslave.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslave.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/test/user/testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM::work"
+FILE "<project>/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v,hdl"
+LIST Other_Association
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C0.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C1.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C2.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C3.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C4.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C5.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C6.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C7.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C8.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C9.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C10.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C11.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C12.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C13.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C14.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C15.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C0.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C1.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C2.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C3.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C4.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C5.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C6.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C7.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C8.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C9.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C10.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C11.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C12.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C13.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C14.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C15.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C0.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C1.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C2.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C3.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C4.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C5.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C6.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C7.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C8.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C9.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C10.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C11.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C12.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C13.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C14.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C15.mem,sim"
+ENDLIST
+ENDLIST
+LIST "SNN::work"
+FILE "<project>/component/work/SNN/SNN.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>/stimulus/post_synth_tb.v,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>/constraint/SNN_derived_constraints.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>/constraint/SNN_derived_constraints.sdc,sdc"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>/constraint/io/snn_io.pdc,io_pdc"
+VALUE "<project>/constraint/SNN_derived_constraints.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>/synthesis/SNN.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST SNN
+VALUE "<project>/stimulus/post_synth_tb.v,tb_hdl"
+ENDLIST
+LIST COREUART_C0_COREUART_C0_0_COREUART
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/coreparameters.v,tb_hdl"
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/test/user/testbnch.v,tb_hdl"
+ENDLIST
+LIST CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/coreparameters.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbl.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahblapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslave.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslave.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/test/user/testbench.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST COREUART_C0_COREUART_C0_0_COREUART
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/coreparameters.v,tb_hdl"
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/test/user/testbnch.v,tb_hdl"
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/mti/scripts/wave_vlog.do,do"
+ENDLIST
+LIST PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C0.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C1.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C2.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C3.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C4.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C5.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C6.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C7.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C8.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C9.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C10.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C11.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C12.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C13.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C14.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C15.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C0.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C1.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C2.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C3.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C4.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C5.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C6.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C7.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C8.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C9.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C10.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C11.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C12.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C13.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C14.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R1C15.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C0.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C1.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C2.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C3.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C4.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C5.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C6.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C7.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C8.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C9.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C10.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C11.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C12.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C13.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C14.mem,sim"
+VALUE "<project>/simulation/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R2C15.mem,sim"
+ENDLIST
+LIST CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb
+VALUE "<project>/simulation/coreuart_usertb_apb_master.bfm,sim"
+VALUE "<project>/simulation/coreuart_usertb_include.bfm,sim"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/coreparameters.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbl.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahblapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslave.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslave.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/test/user/testbench.v,tb_hdl"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/mti/scripts/bfmtovec_compile.do,do"
+VALUE "<project>/component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/mti/scripts/wave_vlog_amba.do,do"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+VcomOpt=
+VlogOpt=
+EntityName=post_synth_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=/home/nehaal-raj/microchip/Libero_SoC_2026.1/Libero_SoC/Designer/lib/questasim/pli/pf_crypto_lin_questa_me64_pli.so
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=TRUE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="/home/nehaal-raj/microchip/Libero_SoC_2026.1/Libero_SoC/Synplify_Pro/bin/synplify_pro"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="QuestaSim ME"
+FUNCTION="Simulation"
+TOOL="QuestaSim ME"
+LOCATION="/home/nehaal-raj/microchip/Libero_SoC_2026.1/Libero_SoC/QuestaSim_Pro/linux_x86_64/vsim"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="/home/nehaal-raj/microchip/Libero_SoC_2026.1/Libero_SoC/Identify/bin/identify_debugger"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "COREUART_C0_COREUART_C0_0_COREUART::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "SNN::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>/synthesis/SNN.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "ADAS_BUFFER::work","hdl/ADAS_BUFFER.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0::work","component/work/COREUART_C0/COREUART_C0.v","TRUE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/CoreUART.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_COREUART::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/CoreUART.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Rx_async::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Rx_async.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Tx_async::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Tx_async.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_fifo_256x8::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Clock_gen::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Clock_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_fifo_256x8::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_fifo_ctrl_256::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_fifo_ctrl_256::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_ram256x8_g5::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_ram256x8_g5::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Rx_async::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Rx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Tx_async::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Tx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C0::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0.v","TRUE","FALSE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/CoreUARTapb.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/CoreUARTapb.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/CoreUART.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_256x8::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_ctrl_256::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_ctrl_256::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_ram256x8_g5::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_ram256x8_g5::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Rx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Tx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Clock_gen::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/Clock_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Clock_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/CoreUART.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Rx_async.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Tx_async.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_256x8::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/fifo_256x8_g5.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/Clock_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "emgBuffer::work","hdl/emgBuffer.v","FALSE","FALSE"
+ENDLIST
+LIST "inference_perf_counter::work","hdl/inference_perf_counter.v","FALSE","FALSE"
+ENDLIST
+LIST "INPUT_COMBINER::work","hdl/INPUT_COMBINER.v","FALSE","FALSE"
+ENDLIST
+LIST "INPUT_READY::work","hdl/INPUT_READY.v","FALSE","FALSE"
+ENDLIST
+LIST "layer_if_neuron::work","hdl/layer_if_neuron.v","FALSE","FALSE"
+ENDLIST
+LIST "layer_if_neuron_II::work","hdl/layer_if_neuron_II.v","FALSE","FALSE"
+ENDLIST
+LIST "layer_if_neuron_III::work","hdl/layer_if_neuron_III.v","FALSE","FALSE"
+ENDLIST
+LIST "Not_gate::work","hdl/Not_gate.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_CCC_C0::work","component/work/PF_CCC_C0/PF_CCC_C0.v","TRUE","FALSE"
+SUBBLOCK "PF_CCC_C0_PF_CCC_C0_0_PF_CCC::work","component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_CCC_C0_PF_CCC_C0_0_PF_CCC::work","component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_TPSRAM_C0::work","component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v","TRUE","FALSE"
+SUBBLOCK "PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM::work","component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM::work","component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "rateEncoder::work","hdl/rateEncoder.v","FALSE","FALSE"
+ENDLIST
+LIST "reset::work","hdl/reset.v","FALSE","FALSE"
+ENDLIST
+LIST "SNN::work","component/work/SNN/SNN.v","TRUE","FALSE"
+SUBBLOCK "ADAS_BUFFER::work","hdl/ADAS_BUFFER.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0::work","component/work/COREUART_C0/COREUART_C0.v","TRUE","FALSE"
+SUBBLOCK "INPUT_COMBINER::work","hdl/INPUT_COMBINER.v","FALSE","FALSE"
+SUBBLOCK "INPUT_READY::work","hdl/INPUT_READY.v","FALSE","FALSE"
+SUBBLOCK "Not_gate::work","hdl/Not_gate.v","FALSE","FALSE"
+SUBBLOCK "PF_CCC_C0::work","component/work/PF_CCC_C0/PF_CCC_C0.v","TRUE","FALSE"
+SUBBLOCK "SNN_UART_REPORTER::work","hdl/SNN_UART_REPORTER.v","FALSE","FALSE"
+SUBBLOCK "UART_INPUT_ROUTER::work","hdl/UART_INPUT_ROUTER.v","FALSE","FALSE"
+SUBBLOCK "emgBuffer::work","hdl/emgBuffer.v","FALSE","FALSE"
+SUBBLOCK "inference_perf_counter::work","hdl/inference_perf_counter.v","FALSE","FALSE"
+SUBBLOCK "layer_if_neuron_III::work","hdl/layer_if_neuron_III.v","FALSE","FALSE"
+SUBBLOCK "layer_if_neuron_II::work","hdl/layer_if_neuron_II.v","FALSE","FALSE"
+SUBBLOCK "layer_if_neuron::work","hdl/layer_if_neuron.v","FALSE","FALSE"
+SUBBLOCK "reset::work","hdl/reset.v","FALSE","FALSE"
+SUBBLOCK "snnController::work","hdl/snnController.v","FALSE","FALSE"
+SUBBLOCK "snn_output_latch::work","hdl/snn_output_latch.v","FALSE","FALSE"
+SUBBLOCK "uart_emg_bridge::work","hdl/uart_emg_bridge.v","FALSE","FALSE"
+ENDLIST
+LIST "snn_output_latch::work","hdl/snn_output_latch.v","FALSE","FALSE"
+ENDLIST
+LIST "SNN_UART_REPORTER::work","hdl/SNN_UART_REPORTER.v","FALSE","FALSE"
+ENDLIST
+LIST "snnController::work","hdl/snnController.v","FALSE","FALSE"
+ENDLIST
+LIST "uart_emg_bridge::work","hdl/uart_emg_bridge.v","FALSE","FALSE"
+ENDLIST
+LIST "UART_INPUT_ROUTER::work","hdl/UART_INPUT_ROUTER.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_AHBL::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbl.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_MAIN::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_AHBLAPB::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahblapb.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_BFMA1l1OII::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_MAIN::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_AHBSLAVE::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslave.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_AHBSLAVEEXT::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_APB2APB::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_APBSLAVE::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslave.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_APBSLAVEEXT::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_APBSLAVEEXT::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFMA1l1OII::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_AHBSLAVEEXT::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_APB::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_BFMA1l1OII::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_MAIN::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_MAIN::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFMA1l1OII::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_MAIN::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "post_synth_tb::work","stimulus/post_synth_tb.v","FALSE","TRUE"
+SUBBLOCK "SNN::work","component/work/SNN/SNN.v","TRUE","FALSE"
+ENDLIST
+LIST "testbench::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/test/user/testbench.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/core/CoreUARTapb.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_APB::work","component/work/CoreUARTapb_C0/CoreUARTapb_C0_0/rtl/vlog/amba_bfm/bfm_apb.v","FALSE","TRUE"
+ENDLIST
+LIST "testbnch::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/test/user/testbnch.v","FALSE","TRUE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::work","component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core/CoreUART.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint/io/snn_io.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint/SNN_derived_constraints.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

@@ -1,0 +1,74 @@
+# Bank0: LEDs, switches, reference clock — 1.8 V
+set_iobank -bank_name Bank0 \
+    -vcci 1.80 \
+    -fixed true \
+    -update_iostd true
+
+# Bank9: CP2108 UART interface 2 — 3.3 V
+set_iobank -bank_name Bank9 \
+    -vcci 3.30 \
+    -fixed true \
+    -update_iostd true
+
+# ---------------------------------------------------------
+# UART RX — PC to FPGA
+# ---------------------------------------------------------
+set_io -port_name {RX} \
+    -pin_name C22 \
+    -fixed true \
+    -DIRECTION INPUT \
+    -io_std LVCMOS33
+
+#  ---------------------------------------------------------
+# UART TX — FPGA to PC
+# ---------------------------------------------------------   
+set_io -port_name {TX} \
+    -pin_name B22 \
+    -fixed true \
+    -DIRECTION OUTPUT \
+    -io_std LVCMOS33    
+
+# ---------------------------------------------------------
+# LED0 — Emergency braking prediction
+# ---------------------------------------------------------
+set_io -port_name {latched_brake_trigger} \
+    -pin_name V14 \
+    -fixed true \
+    -DIRECTION OUTPUT \
+    -io_std LVCMOS18
+
+# ---------------------------------------------------------
+# LED1 — Normal driving prediction
+# ---------------------------------------------------------
+set_io -port_name {latched_non_brake_trigger} \
+    -pin_name U13 \
+    -fixed true \
+    -DIRECTION OUTPUT \
+    -io_std LVCMOS18
+
+# ---------------------------------------------------------
+# LED2 — Toggles after completed inference
+# ---------------------------------------------------------
+set_io -port_name {inference_led} \
+    -pin_name T12 \
+    -fixed true \
+    -DIRECTION OUTPUT \
+    -io_std LVCMOS18
+
+# ---------------------------------------------------------
+# 50 MHz Reference Clock
+# ---------------------------------------------------------
+set_io -port_name {REF_CLK_0} \
+    -pin_name W12 \
+    -fixed true \
+    -DIRECTION INPUT \
+    -io_std LVCMOS18
+
+# ---------------------------------------------------------
+# SW1 — Reset
+# ---------------------------------------------------------
+set_io -port_name {rst_n} \
+    -pin_name V19 \
+    -fixed true \
+    -DIRECTION INPUT \
+    -io_std LVCMOS18

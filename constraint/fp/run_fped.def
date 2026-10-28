@@ -1,0 +1,39 @@
+data HELP_TYPE_DES 2
+data DESIGN SNN
+data HPATH '/home/nehaal-raj/SOP_4_1/SNN_EMG/designer/SNN'
+data CPATH '/home/nehaal-raj/SOP_4_1/SNN_EMG/constraint/fp'
+data CDIR '/home/nehaal-raj/SOP_4_1/SNN_EMG/constraint'
+data NLV_HIDE_OPTION_DLG 1
+data REGION_DEFCOLOR_EMPTY 2143322112
+data REGION_DEFCOLOR_INCLUSIVE 2147442270
+data REGION_DEFCOLOR_EXCLUSIVE 2143338688
+data REGION_DEFCOLOR_CLOCK 16735838
+data ETYPE CP
+data FAM PolarFireSoC
+data DIE PA5SOC250TC
+data PACKAGE fcvg484
+data SPEED STD
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data VCCI_1.2_VOLTR EXT
+data VCCI_1.5_VOLTR EXT
+data VCCI_1.8_VOLTR EXT
+data VCCI_2.5_VOLTR EXT
+data VCCI_3.3_VOLTR EXT
+data FLOW_TYPE NEW
+data AFL '/home/nehaal-raj/SOP_4_1/SNN_EMG/designer/SNN/COMPILE/SNN.afl'
+data ADL '/home/nehaal-raj/SOP_4_1/SNN_EMG/designer/SNN/SNN.adl'
+data LOC '/home/nehaal-raj/SOP_4_1/SNN_EMG/designer/SNN/COMPILE/SNN.loc'
+data SEG '/home/nehaal-raj/SOP_4_1/SNN_EMG/designer/SNN/COMPILE/SNN.seg'
+
+data IO_PDC_0 '/home/nehaal-raj/SOP_4_1/SNN_EMG/constraint/io/snn_io.pdc'
+data TARGET_IOPDC  '/home/nehaal-raj/SOP_4_1/SNN_EMG/constraint/io/user.pdc'
+data TARGET_FPPDC  '/home/nehaal-raj/SOP_4_1/SNN_EMG/constraint/fp/user.pdc'
+data TARGET_DEVICES_FOR_MIGRATION 'PA5SOC250TC '
+data RESTRICTPROBEPINS 1
+data RESTRICTSPIPINS 0
+data GDEV_SKIP_UNASSIGN_CMP_CHECK    1 
+data HIDE_MIGRATION_PINS_MENU        1 
+data PLANNER_IS_READONLY   0 
+data IO_DEFT_STD LVCMOS18
+

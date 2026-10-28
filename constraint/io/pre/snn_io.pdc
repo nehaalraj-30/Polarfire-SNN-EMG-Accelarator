@@ -1,0 +1,93 @@
+# Microchip I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2026.1 2026.1.0.17
+
+# Family: PolarFireSoC , Die: MPFS250TC , Package: FCVG484
+
+# Date generated: Thu Oct 22 22:26:12 2026 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+set_iobank -bank_name Bank0  \
+    -vcci 1.80               \
+    -fixed true              \
+    -update_iostd true
+
+set_iobank -bank_name Bank9  \
+    -vcci 3.30               \
+    -fixed true              \
+    -update_iostd true
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name RX  \
+    -pin_name C22     \
+    -fixed true       \
+    -io_std LVCMOS33  \
+    -DIRECTION INPUT
+
+
+set_io -port_name TX   \
+    -pin_name B22      \
+    -fixed true        \
+    -io_std LVCMOS33   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name inference_led  \
+    -pin_name T12                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name latched_brake_trigger  \
+    -pin_name V14                        \
+    -fixed true                          \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name latched_non_brake_trigger  \
+    -pin_name U13                            \
+    -fixed true                              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name rst_n  \
+    -pin_name V19        \
+    -fixed true          \
+    -DIRECTION INPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+
